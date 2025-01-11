@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.9);
+    padding: 20px;
+    background-color: white;
+}
+
+.header{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.load-amount-info, .interest-rate-info{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.months-to-pay-info{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:10px ;
+    border-radius: 5px;
+   border: 1px solid grey;
+}
+
+button{
+    width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.result{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
